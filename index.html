@@ -8,11 +8,12 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <!--Menu-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark dark p-3">
         <a class="navbar-brand" href="#">Riot Games Logo com dropdown</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,6 +24,18 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#"><img src="assets/imagens/Vava Logo.png" alt=""><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Informações do Jogo
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Agentes</a>
+                        <a class="dropdown-item" href="#">Mapas</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Arsenal</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Mídia</a>
@@ -85,8 +98,8 @@
             <form class="form-inline my-2 my-lg-0">
                 <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
                 <div>
-                    <button class="btn btn-danger my-2 my-sm-0" role="button"><img
-                            src="assets/imagens/wondicon-ui-free-website_111210 (1).png" alt=""></button>
+                    <button class="btn btn-outline-danger mr-3" role="submit"><img
+                            src="assets/imagens/outline_language_white_24dp.png" alt=""></button>
                     <button class="btn btn-danger my-2 my-sm-0" type="submit">Jogue agora</button>
                 </div>               
             </form>
@@ -104,7 +117,7 @@
                     <img src="assets/imagens/maxresdefault (1).jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/imagens/jett-em-valorant-papel-de-parede-1280x720_45.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/imagens/neon-valorant-agent-wallpaper-1280x720_45.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
