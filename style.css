@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+/* body {
+    overflow-x: hidden;
+} */
+
 nav {
     color: #f9f9f9;
     font-size: 13px;
@@ -20,10 +24,18 @@ nav a{
     padding: 7.5px 16px;
 }
 
+
 .dark {
     background-color: #111111;
 }
 
 .btn { 
     /* background-color: #FF4655; */
+}
+
+@media (max-width: 768px){
+    .video {
+        width: 60%;
+        height: auto;
+    }
 }
