@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VALORANT: o jogo competitivo de tiro tático 5x5 da Riot Games</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="assets/imagens/Vava Logo.png" type="image/x-icon">
 
 </head>
-<body class="container-fluid m-0 p-0">
+<body>
+    
     <!--Menu-->
     <nav class="navbar navbar-expand-lg navbar-dark dark p-3">
         <a class="navbar-brand" href="#">Riot Games</a>
@@ -109,21 +111,21 @@
 
 
     <!--VideoBG-->
-   
-    <div class="container-fluid m-0 p-0">
-        <video class="w-100 " playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="assets/videos/VALORANT_AQUECIMENTO - Animação RIOT GAMES.mp4" type="video/mp4">
-
-            <div>
-                <img src="assets/imagens/" alt="">
+    <section class="videoBG">
+        <div class="container-fluid m-0 p-0">
+            <video class="w-100" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="assets/videos/VALORANT_AQUECIMENTO - Animação RIOT GAMES.mp4" type="video/mp4">
+        
+            </video>
+            <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center flex-column">
+                    <h1 class="display-3"><img src="assets/imagens/valorant-logo-logo.png" alt=""></h1>
+                    <button class="btn btn-danger my-2 my-sm-0" type="submit">Jogue agora</button>
+                </div>
             </div>
-        </video>
-    </div>
-            
-            
-
+        </div>
+    </section>
     <!--/VideoBG-->
-
 
     <!--Carousel-->
         <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -158,133 +160,147 @@
         </div> -->
     <!--Jubotron-->
 
-    <!--Cards-->
-    <div class="container m-0 p-0">
-        <div class="card-deck">
-            <div class="card">
-                <img src="assets/imagens/TORNEIOS_DE_COMUNIDADE_VAL_CARD.jpeg" class="card-img-top" alt="ard dos torneios da Comunidade">
-                <div class="card-body">
-                    <h5 class="card-title">Torneios</h5></h5>
-                    <p class="card-text">Torneios de Comunidade - 11/02 a 17/02</p>
+    <!--Cards News-->
+    <section class="bg">
+        <div class="container">
+            <div class="card-deck p-5">
+                <h2 class="homepageNews ">
+                    <span>ÚLTIMAS NOTÍCIAS</span>
+                </h2>
+                <div class="card"> 
+                    <img src="assets/imagens/TORNEIOS_DE_COMUNIDADE_VAL_CARD.jpeg" class="card-img-top"
+                        alt="Card dos torneios da Comunidade">
+                    <div class="card-body">
+                        <h5 class="card-title">Torneios</h5>
+                        </h5>
+                        <p class="card-text">Torneios de Comunidade - 11/02 a 17/02</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+        
+                <div class="card">
+                    <img src="assets/imagens/Article_Banner_system_health_1920x1080.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Update</h5>
+                        </h5>
+                        <p class="card-text">Série integridade dos sistemas do Valorant - Comportamento Tóxico no chat de VOZ/TEXTO</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 20 min ago</small>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <img src="assets/imagens/escala.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">VCT</h5>
+                        <p class="card-text">Valorant Challengers Brazil 2022: Escalações oficiais da etapa 1</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 1 hour ago</small>
+                    </div>
                 </div>
             </div>
-        
-            <div class="card">
-                <img src="assets/imagens/Article_Banner_system_health_1920x1080.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Update</h5></h5>
-                    <p class="card-text">Série integridade dos sistemas do Valorant - Comportamento Tóxico no chat de VOZ/TEXTO</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-        
-            <div class="card">
-                <img src="assets/imagens/escala.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">VCT</h5>
-                    <p class="card-text">Valorant Challengers Brazil 2022: Escalações oficiais da etapa 1</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-        </div>
-        
-    <!--/Cards-->
+    <!--/Cards News-->
 
+        <hr> 
+        
     <!--Texto e Video-->
-        <div class="row mt-5 mb-5">
-            <div class="col-md-6">
-                <h1>Nós somos VALORANT</h1>
-                <h3>Desafie seus Limites</h3>
-                <hr>
-                <p class="col-md-6">Misture o seu estilo e experiência em um cenário global e competitivo. Você terá 13 rodadas para atacar e defender com
-                disparos certeiros e habilidades táticas. Com apenas uma vida por rodada, você deve pensar mais rápido que o oponente se
-                quiser sobreviver. Encare inimigos nos modos Competitivo e Sem Ranque, além da Disputa da Spike e do Mata-Mata!</p>
-
-                <a class="btn btn-danger btn-lg" href="#" role="button">Conheça o Jogo</a>
+            <section>
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-6">
+                        <h1>Nós somos VALORANT</h1>
+                        <h3>Desafie seus Limites</h3>
+                        <hr>
+                        <p class="col-md-6">Misture o seu estilo e experiência em um cenário global e competitivo. Você terá 13
+                            rodadas para atacar e defender com
+                            disparos certeiros e habilidades táticas. Com apenas uma vida por rodada, você deve pensar mais rápido
+                            que o oponente se
+                            quiser sobreviver. Encare inimigos nos modos Competitivo e Sem Ranque, além da Disputa da Spike e do
+                            Mata-Mata!</p>
+                
+                        <a class="btn btn-danger btn-lg" href="#" role="button">Conheça o Jogo</a>
+                    </div>
+                
+                    <div class="col-md-6">
+                        <iframe width="600" height="400" src="https://www.youtube.com/embed/Pka9k_elCkA" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </section> 
             </div>
-
-            <div class="col-md-6">
-                <iframe 
-                width="600" 
-                height="400" 
-                src="https://www.youtube.com/embed/Pka9k_elCkA" 
-                title="YouTube video player"
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-    
+            <hr>
+    </section>
     <!--/Texto e Video-->
-
-        <hr>
-
+        
+        
     <!--Form-->
-    <div class="row mb-5">
-        <div class="col-md-12">
-            <h4 class="text-center">
-                Entre em contato
-            </h4>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-6">
-            <form>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <section class="formulario">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="container m-0 p-0 col-md-12">
+                            <h4 class="formText d-flex align-items-center justify-content-center">
+                                Entre em contato conosco
+                            </h4>
+                            <hr>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                    
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Assunto</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="form-group d-flex justify-content-end">
+                                    <button class="btn btn-danger btn-lg">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <iframe class="w-100 h-100"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.8516528139105!2d-46.68415689986034!3d-23.543171323551764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57ec52bb75b9%3A0x4d5d4cb7c496c14a!2sR.%20Bruxelas%20-%20Sumar%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001259-020!5e0!3m2!1spt-BR!2sbr!4v1644862469600!5m2!1spt-BR!2sbr"
+                                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    </section>
                 </div>
-            
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Assunto</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="form-group d-flex justify-content-end">
-                    <button class="btn btn-danger btn-lg">Enviar</button>
-                </div>
-            </form>
-            </div>
-            <div class="col-md-6">
-                <iframe class="w-100"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.8516528139105!2d-46.68415689986034!3d-23.543171323551764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57ec52bb75b9%3A0x4d5d4cb7c496c14a!2sR.%20Bruxelas%20-%20Sumar%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001259-020!5e0!3m2!1spt-BR!2sbr!4v1644862469600!5m2!1spt-BR!2sbr"
-                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-    </div>
-
+                
     <!--/Form-->
 
     <hr>
     <!--Footer-->
         <footer class="p-0 m-0">
         
-            <div class="row mb-3">
+            <div class="row m-0 mb-3">
                 <div class="col-md-12 d-flex justify-content-center">
         
                     <a href="https://www.facebook.com/" target="_blank" class="p-3">
-                        <img class="tm-social" src="assets/imagens/fb_icon-icons.com_65434.png" alt="Logo do Facebook">
+                        <img class="tm-social" src="assets/imagens/social_facebook_fb_35 (1).png" alt="Logo do Facebook">
                     </a>
         
                     <a href="https://www.linkedin.com/" target="_blank" class="p-3">
-                        <img class="tm-social" src="assets/imagens/LinkedIn_icon-icons.com_55877.png" alt="Logo do Linkedin">
+                        <img class="tm-social" src="assets/imagens/sociallinkedin_member_30.png" alt="Logo do Linkedin">
                     </a>
         
                     <a href="https://www.instagram.com/" target="_blank" class="p-3">
-                        <img class="tm-social" src="assets/imagens/instagram_f_icon-icons.com_65485.png" alt="Logo do Intagram">
+                        <img class="tm-social" src="assets/imagens/social_instagram_3.png" alt="Logo do Intagram">
                     </a>
                 </div>
             </div>
         
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-md-12">
                     <p class="text-center">
                         Todos os direitos reservados: Riot Games &copy
